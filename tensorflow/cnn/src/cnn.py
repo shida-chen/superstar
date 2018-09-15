@@ -31,8 +31,7 @@ test_target = mnist.test.labels
 x = tf.placeholder("float", shape=[None, 784])  #训练向量
 y = tf.placeholder("float", shape=[None, 10])   #真实结果
 keep_prob = tf.placeholder("float") # keep_probability 隐含层节点保持工作的概率
-# epochs_num = 5000 #训练次数
-epochs_num = 50
+epochs_num = 5000 #训练次数
 batch_size = 100 #分批次大小
 """   创建CNN第一卷积层     """
 # 定义卷积核的大小5*5,传入一个图像，32个卷积核，所以传出32个图像。
@@ -65,9 +64,9 @@ accuracy = tf.reduce_mean(tf.cast(correct_prediction, "float"))
 sess.run(tf.initialize_all_variables())  
 for i in range(epochs_num):  
     batch_data, batch_target = next_batch(train_data,train_target,batch_size)  
-    if i%10 == 0:  
+    if i%100 == 0:  
         train_accuracy = accuracy.eval(feed_dict={ x:batch_data, y: batch_target, keep_prob: 1.0} )  
-        print ("step {0:d}, training accuracy {0:.3f}".format(i, train_accuracy))
+        print ("step {0:d}, training accuracy {1:.3f}".format(i, train_accuracy))
     train_step.run(feed_dict={x: batch_data, y:batch_target, keep_prob: 0.5})  
  
 print ("Training finished") 
