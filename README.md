@@ -1,2 +1,2 @@
 # superstar
-## This superstar repositories is for shida.chen researching.
+## This repositories is used for deep learning researching.
