@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:42 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Thu Sep 27 16:06:17 2018
+# Process ID: 32349
+# Current directory: /home/lab018/shida.chen/superstar/project/project_1/project_1.sim/sim_1/behav
+# Command line: wbtcv -mode batch -source /home/lab018/shida.chen/superstar/project/project_1/project_1.sim/sim_1/behav/xsim.dir/counter_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: /home/lab018/shida.chen/superstar/project/project_1/project_1.sim/sim_1/behav/webtalk.log
+# Journal file: /home/lab018/shida.chen/superstar/project/project_1/project_1.sim/sim_1/behav/webtalk.jou
+#-----------------------------------------------------------
+source /home/lab018/shida.chen/superstar/project/project_1/project_1.sim/sim_1/behav/xsim.dir/counter_tb_behav/webtalk/xsim_webtalk.tcl -notrace
