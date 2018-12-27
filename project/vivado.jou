@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:42 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Thu Sep 27 16:00:43 2018
+# Process ID: 30776
+# Current directory: /home/lab018/shida.chen/superstar/project
+# Command line: vivado
+# Log file: /home/lab018/shida.chen/superstar/project/vivado.log
+# Journal file: /home/lab018/shida.chen/superstar/project/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/lab018/shida.chen/superstar/project/my_project/my_project.xpr
+save_project_as project_1 /home/lab018/shida.chen/superstar/project/project_1 -force
+launch_simulation
+source counter_tb.tcl
+close_sim

@@ -1,0 +1,7 @@
+[Info]---------------------------Training Result List----------------------[Report]
+Dense model:test accuracy = 0.9926, inference time = 500.0ms
+[Info]-------------------------Pruning and Retraining Result List--------------------[Report]
+Total pruning iteration: 1. pruning percentage each iteration: 0.6
+pruning : iter 0, perc=0.6 
+Pruning : Iteration = 0 , Test accurancy after pruning = 0.9924 , Inference time = 520 ms
+Retraining: Iteration = 0 , Test accurancy after pruning and Retraining = 0.9932 , Inference time = 540 ms
