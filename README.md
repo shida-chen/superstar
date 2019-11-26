@@ -1,2 +1,2 @@
 # superstar
-## This repositories is used for deep learning researching.
+## This repositories is used for deep learning research.
